@@ -4,6 +4,8 @@ Game kuis kelas gaya **Family 100** untuk mata pelajaran Pendidikan Pancasila, t
 
 Satu file HTML (`index.html`) — tanpa server, tanpa instalasi. Tinggal buka di browser.
 
+**▶ Mainkan di sini: https://family-100-pendidikan-pancasila.vercel.app**
+
 ## Fitur
 
 - Papan jawaban flip yang terbuka satu per satu lengkap dengan poinnya
