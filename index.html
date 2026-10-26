@@ -162,7 +162,7 @@
     .scorebar{ flex-wrap:wrap; } .pot{ order:3; width:100%; }
     .flip{ height:50px; }
   }
-</style>
+  /* ===== Tampilan laptop: kolom penuh + muat satu layar tanpa scroll ===== */ @media (min-width:900px){ body{ padding:10px 0 14px; } .wrap{ width:97vw; max-width:none; margin:0 auto; min-height:calc(100vh - 24px); min-height:calc(100dvh - 24px); display:flex; flex-direction:column; } header{ margin-bottom:4px; } .logo{ font-size:clamp(44px,5vw,72px); } .scorebar{ margin:10px 0; } .team .tscore{ font-size:clamp(34px,4vw,52px); } .qbox{ padding:12px 18px; } .qtext{ font-size:clamp(22px,2.2vw,32px); } .board{ margin-top:12px; flex:1; display:flex; flex-direction:column; gap:10px; min-height:0; } .row{ flex:1; min-height:52px; } .flip{ height:100%; } .back .ans{ font-size:clamp(17px,1.6vw,24px); } .back .pts{ font-size:clamp(18px,1.6vw,24px); } .controls{ margin-top:12px; padding:12px 14px; } details.panel{ margin-top:10px; } footer{ margin-top:10px; } } </style>
 </head>
 <body>
 <div class="wrap">
